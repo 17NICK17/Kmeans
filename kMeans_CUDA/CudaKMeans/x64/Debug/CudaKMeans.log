@@ -1,0 +1,20 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\x64\Debug\kernel.cu.obj "C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu" 
+C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu(124): warning #177-D: variable "dataToAppend" was declared but never referenced
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu(246): warning #225-D: the format string ends before this argument
+  
+  kernel.cu
+  tmpxft_000030c0_00000000-7_kernel.cudafe1.cpp
+C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu(59): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu(109): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu(131): warning C4244: 'inizializzazione': conversione da 'float' a 'int'. Possibile perdita di dati.
+C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu(124): warning C4101: 'dataToAppend': variabile locale senza riferimenti
+C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu(246): warning C4474: 'printf': sono stati passati troppi argomenti per la stringa di formato
+  C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\CudaKMeans\kernel.cu(246): note: con i segnaposto e i relativi parametri sono previsti argomenti variadic 0, ma sono stati specificati quelli 1
+     Creazione della libreria C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\x64\Debug\CudaKMeans.lib e dell'oggetto C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\x64\Debug\CudaKMeans.exp
+LINK : warning LNK4098: la libreria predefinita 'LIBCMT' è in conflitto con l'utilizzo di altre librerie; usare /NODEFAULTLIB:libreria
+  CudaKMeans.vcxproj -> C:\Users\Nick\Desktop\cKmeans-main\cuda_k_means\x64\Debug\CudaKMeans.exe

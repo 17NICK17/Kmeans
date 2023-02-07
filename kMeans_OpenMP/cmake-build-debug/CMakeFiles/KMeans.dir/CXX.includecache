@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/GitHubRepo/Kmeans/cKmeans/OpenMP_source/main.cpp
+stdio.h
+-
+time.h
+-
+random
+-
+limits.h
+-
+stdlib.h
+-
+math.h
+-
+omp.h
+-
+float.h
+-
+
